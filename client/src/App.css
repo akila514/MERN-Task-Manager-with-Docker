@@ -1,0 +1,19 @@
+html,
+body,
+:root {
+  /* overflow-x: hidden;
+  white-space: nowrap; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #161616;
+  color: white;
+}
+
+.card {
+  @apply w-full p-4 rounded-lg bg-opacity-70 space-y-4  bg-black/20 flex flex-col;
+}
